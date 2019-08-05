@@ -29,10 +29,10 @@ end
  def count_sentences
    punctuation = [".", "!", "?"]
    
-self.each_char do |letter|
+#self.each_char do |letter|
 
     
 binding.pry
-end
+#end
 end
 end
