@@ -29,7 +29,7 @@ end
   def count_sentences
     self.join(" ") if self.isalpha() else self.split(" ")
     elements.delete_if{|e| e.length == 0}
-  end
+  
 end
 end
 end
