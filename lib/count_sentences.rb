@@ -27,6 +27,7 @@ end
   end
 
  def count_sentences
+   punctuation = [".", "!", "?"]
  #   if self.isalpha() self.join(" ")
   #  else 
    #   self.split(" ")
