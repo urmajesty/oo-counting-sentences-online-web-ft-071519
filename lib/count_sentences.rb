@@ -29,9 +29,9 @@ end
  def count_sentences
    punctuation = [".", "!", "?"]
    
-self.each_char do |string|
-  if punctuation.include?("")
+self.each_char do |letter|
+  #if punctuation.include?(letter)
     
-end
+
 end
 end
