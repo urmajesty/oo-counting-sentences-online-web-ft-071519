@@ -35,3 +35,4 @@ self.each_char do |letter|
 binding.pry
 end
 end
+end
