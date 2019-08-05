@@ -30,10 +30,9 @@ end
    punctuation = [".", "!", "?"]
    
 self.each_char do |letter|
-  #if punctuation.include?(letter)
+
     
 binding.pry
-end
 end
 end
 end
