@@ -27,6 +27,6 @@ end
   end
 
   def count_sentences
-    self.split("")
+    "".join((self if self.isalpha() else " ") for self in test).split()
   end
 end
