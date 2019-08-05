@@ -27,7 +27,9 @@ end
   end
 
   def count_sentences
-    self.join(" ") if self.isalpha() else self.split(" ")
+    if self.isalpha() self.join(" ")
+    else 
+      self.split(" ")
     elements.delete_if{|e| e.length == 0}
   
 end
