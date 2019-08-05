@@ -33,7 +33,6 @@ end
 #self.each_char do |letter|
 #if punctuation
  self.split(/[.?!]+/).grep(/\S/).count
+
 end
-end
-end
-end
+
