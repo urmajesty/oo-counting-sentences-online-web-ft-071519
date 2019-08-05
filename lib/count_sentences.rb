@@ -27,11 +27,13 @@ end
   end
 
  def count_sentences
-   counter = 0
-   punctuation = [".", "!", "?"]
+   #counter = 0
+  # punctuation = [".", "!", "?"]
    
-self.each_char do |letter|
-if punctuation
-  end
+#self.each_char do |letter|
+#if punctuation
+ self.split(/[.?!]+/).grep(/\S/).count
+end
+  
 end
 end
