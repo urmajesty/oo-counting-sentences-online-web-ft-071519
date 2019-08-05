@@ -30,3 +30,4 @@ end
     "".join((self if self.isalpha() else " ") for self in test).split()
   end
 end
+end
