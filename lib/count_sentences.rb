@@ -27,12 +27,11 @@ end
   end
 
  def count_sentences
+   counter = 0
    punctuation = [".", "!", "?"]
    
-#self.each_char do |letter|
-
-    
-
-#end
+self.each_char do |letter|
+  
+end
 end
 end
