@@ -26,11 +26,11 @@ end
     end
   end
 
- # def count_sentences
+ def count_sentences
  #   if self.isalpha() self.join(" ")
   #  else 
    #   self.split(" ")
     #elements.delete_if{|e| e.length == 0}
   binding.pry
-#end
+end
 end
