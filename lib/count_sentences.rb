@@ -31,7 +31,7 @@ end
    punctuation = [".", "!", "?"]
    
 self.each_char do |letter|
-  
-end
+if punctuation
+  end
 end
 end
