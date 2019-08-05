@@ -32,7 +32,5 @@ end
    #   self.split(" ")
     #elements.delete_if{|e| e.length == 0}
   binding.pry
-end
-end
-end
+
 end
