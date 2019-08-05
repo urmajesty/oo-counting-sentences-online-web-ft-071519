@@ -35,4 +35,4 @@ end
  self.split(/[.?!]+/).grep(/\S/).count
 
 end
-
+end
