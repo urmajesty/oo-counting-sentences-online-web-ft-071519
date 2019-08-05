@@ -29,10 +29,7 @@ end
  def count_sentences
    punctuation = [".", "!", "?"]
    
- #   if self.isalpha() self.join(" ")
-  #  else 
-   #   self.split(" ")
-    #elements.delete_if{|e| e.length == 0}
-  binding.pry
+self.each.do |string|
+  if 
 end
 end
